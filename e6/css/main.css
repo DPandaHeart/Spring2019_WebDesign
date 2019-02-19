@@ -1,0 +1,193 @@
+a{
+  font-size: 100px;
+}
+body{
+  background: linear-gradient(90deg, rgba(248,255,255,0.3) 50%, rgba(5,0,0,0) 50%, rgba(5,45,80,200) 0), #ccc;
+  background-size:50px auto;
+}
+
+/* div{
+  width: 100px;
+  height: 100px;
+  background-color:  black;
+  float:left;
+  margin: -25px;
+  opacity: 0.8px;
+  border-radius: 100%
+} */
+
+.first:nth-child(even){
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(purple, orange);
+  float:left;
+  margin: -25px;
+  opacity: 0.8px;
+  border-style: dashed;
+}
+.first:nth-child(odd){
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(purple, orange);
+  float:left;
+  margin: -25px;
+  opacity: 0.8px;
+  border-style: dashed;
+}
+
+.second:nth-child(even) {
+  width: 100px;
+  height: 100px;0
+  background-color: lightgreen;
+  float:left;
+  margin: -25px;
+  opacity: 0.8px;
+  border-radius: 10%
+}
+.second:nth-child(odd) {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  float:left;
+  margin: -25px;
+  opacity: 0.8px;
+  border-radius: 100%;
+}
+
+
+  .fourth:nth-child(even){
+    right: : -40px;
+    width: 300px;
+   height: 200px;
+   float: left;
+   background-image: linear-gradient(orange, pink);
+   border:12px solid black;
+;
+  }
+  .fourth:nth-child(odd){
+    left: -40px;
+    width: 430px;
+    height: 500px;
+    float: right;
+    background-image: linear-gradient(green, blue);
+    border:50px solid black;
+  }
+
+  .fifth:nth-child(even){
+    width: 500px;
+    height: 100px;
+    background-image: linear-gradient(red, teal);
+    float:left;
+    margin: -10px;
+    opacity: 0.5px;
+    border-style: ridge;
+  }
+  .fifth:nth-child(odd){
+    width: 400px;
+    height: 200px;
+    background-image: linear-gradient(turquoise, yellow);
+    float:right;
+    margin: 20;
+    opacity: 0.2px;
+    border-radius: 75%;
+    border-style: outset;
+  }
+  .sixth:nth-child(even){
+    width: 400px;
+    height: 200px;
+    background-image: linear-gradient(skyblue, mediumpurple);
+    float:right;
+    margin: 2;
+    opacity: 0.2px;
+    border-radius: 100%;
+    border-style: groove;
+  }
+  .sixth:nth-child(odd){
+    width: 70px;
+    height: 120px;
+    background-image: linear-gradient(coral, honeydew);
+    float:right;
+    margin: 0;
+    opacity: 0.9px;
+    border-radius: 65%;
+    border-style: ridge;
+  }
+
+  .seventh:nth-child(even){
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(coral, magenta);
+    float:left;
+    margin: 0px;
+    opacity: 0.8px;
+    border-style: ridge;
+    border-color: yellow;
+
+  }
+
+  .seventh:nth-child(odd){
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(lightsalmon, lime);
+    float:left;
+    margin: 0px;
+    opacity: 0.8px;
+    border-style: ridge;
+  }
+
+  .eigth:nth-child(even) {  width: 100px;
+    height: 100px;
+    background-image: linear-gradient(orange, orangered);
+    float:left;
+    margin: 0px;
+    opacity: 0.8px;
+    border-radius: 100%;
+    }
+
+    .eigth:nth-child(odd) {  width: 100px;
+      height: 100px;
+      background-color: blue;
+      float:left;
+      margin: -25px;
+      opacity: 0.8px;
+      border-radius: 25%;
+      }
+
+.third:nth-child(odd) {
+  width: 80px;
+  height: 80px;
+  background-image: linear-gradient(maroon, purple);
+  float:left;
+  margin: 25px;
+  opacity: 0.8px;
+  border-radius: 100%;
+}
+.third:nth-child(even) {
+  background-image: radial-gradient(pink, purple, lightgreen);
+    border:12px solid red;
+    height:150px;
+    float:left;
+
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* div:nth-child(even){
+  background-color: purple;
+}
+
+div:nth-child(odd){
+  background-color: blue;
+} */

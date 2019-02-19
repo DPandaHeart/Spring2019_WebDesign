@@ -1,0 +1,249 @@
+body{
+  margin: 0;
+  background-color: pink;
+}
+
+h1{
+  position: relative;
+  font-size: 50px;
+  left: 285px;
+}
+/* Position Options
+Static - default postion
+Absolute - postions something relative to the window or in relation to
+Relative - postions relartive to where it falls on the page
+Fixed - positions it and fixes it at that point scroll does not matter
+ */
+
+
+div{
+
+}
+
+.container{
+  width:;
+  height:;
+  position: relative;
+  top:
+  left:auto;background-color: none;
+}
+.left-circle, .right-circle, .heart{
+  background-color: #ff0066;
+  position: absolute;
+}
+
+/* CANDYYY */
+
+.candy1 {
+  width: 100px;
+      height: 100px;
+      border-radius: 80%;
+      background-color: aqua;
+      left: 218px;
+      top: -1183px;
+      position: relative;
+  }
+.candy2 {
+  width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    background-color: aqua;
+    left: 249px;
+    top: -1217px;
+    position: relative;
+}
+.candy3 {
+  width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    background-color: aqua;
+    left: 189px;
+    top: -1328px;
+    position: relative;
+}
+.candy4 {
+  width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    background-color: aqua;
+    left: 275px;
+    top: -1477px;
+    position: relative;
+}
+.candy5 {
+  width: 100px;
+      height: 100px;
+      border-radius: 80%;
+      background-color: aqua;
+      left: 305px;
+      top: -1527px;
+      position: relative;
+  }
+
+
+
+/* Susuwatari ------------------ */
+
+.soot1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 80%;
+  background: #304649;
+  left: 200px;
+  top: 200px;
+  position: relative;
+}
+.eye1 {
+  width: 70px;
+height: 80px;
+border-radius: 80%;
+background: #F9FEFE;
+left: 232px;
+top: 28px;
+position: relative;
+}
+.eye2 {
+  width: 70px;
+    height: 80px;
+    border-radius: 80%;
+    background: #F9FEFE;
+    left: 307px;
+    top: -74px;
+    position: relative;
+  }
+
+.pupil1 {
+  width: 25px;
+height: 25px;
+border-radius: 80%;
+background: black;
+left: 257px;
+top: -50px;
+position: relative;
+  }
+  .pupil2 {
+    width: 25px;
+    height: 25px;
+    border-radius: 80%;
+    background: black;
+    left: 324px;
+    top: -152px;
+    position: relative;
+    }
+
+
+.arm1 {
+  width: 200px;
+    height: 200px;
+    top: -289px;
+    left: 189px;
+    position: relative;
+    border: solid 5px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+    transform: rotate(275deg);
+}
+
+.arm2 {
+  width: 200px;
+    height: 200px;
+    top: -504px;
+    left: 212px;
+    position: relative;
+    border: solid 5px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+    transform: rotate(93deg);
+  }
+  .leg1 {
+    width: 116px;
+    height: 200px;
+    top: -545px;
+    left: 204px;
+    position: relative;
+    border: solid 5px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+    transform: rotate(93deg);
+}
+    .leg2 {
+      width: 116px;
+      height: 200px;
+      top: -749px;
+      left: 256px;
+      position: relative;
+      border: solid 5px #000;
+      border-color: #000 transparent transparent transparent;
+      border-radius: 50%/100px 100px 0 0;
+      transform: rotate(-84deg);
+  }
+
+/* hearts --------------- */
+
+.left-circle {
+  width: 300px;
+height: 300px;
+border-radius: 100%;
+top: 461px;
+left: 787px;
+
+}
+
+
+.right-circle{
+  width: 300px;
+      height: 300px;
+      border-radius: 100%;
+      top: 461px;
+      left: 539px;
+}
+
+.heart{
+  width: 250px;
+    height: 250px;
+    top: 614px;
+    left: 693px;
+    transform: rotate(45deg);
+}
+
+
+
+/* .relative
+{
+  background-color: red;
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+.relative2
+{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+
+
+.absolute{
+  background-color: aquamarine;
+  position: absolute;
+  top: 400px;
+  left: 400px;
+}
+.absolute2{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.fixed {
+  background-color: firebrick;
+  position: fixed;
+  top: 400px;
+  left: 400px;
+} */
