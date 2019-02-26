@@ -1,0 +1,58 @@
+a{
+  text-align: center;
+  letter-spacing: 1px;
+  margin: 100px 0 0 0;
+  color: deepskyblue;
+  text-decoration: none;
+  cursor: cell;
+  transition: color 2s ease;
+}
+
+a:hover{
+  color: orange;
+}
+
+
+  body {
+    background: lightblue;
+    font-family: 'Capriola', sans-serif;    font-size: 25px;
+    }
+
+
+div{
+  font-size: 50px;
+  width: 1000px;
+  margin: 200px auto;
+}
+
+body{
+  font-size: 50px;
+  background:-color: white;
+  color: black;
+}
+p{
+  font-size: 35px;
+}
+
+h1{
+  text-align: center;
+font-size: 200px;
+}
+h2{
+  text-align: center;
+  font-size: 45px;
+}
+h3{
+  text-align: center;
+  font-family:  'Zilla Slab', serif;
+  font-size: 25px;
+
+}
+h4{
+  font-size: 80px;
+}
+img{
+  top: 200px;
+  text-align: center;
+  width: 100%;
+}

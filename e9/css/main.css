@@ -1,0 +1,440 @@
+a{
+  font-size: 75px;
+}
+body{
+  margin: 0;
+  background-color: pink;
+}
+
+h1{
+  position: relative;
+  font-size: 50px;
+  left: 285px;
+}
+/* Position Options
+Static - default postion
+Absolute - postions something relative to the window or in relation to
+Relative - postions relartive to where it falls on the page
+Fixed - positions it and fixes it at that point scroll does not matter
+ */
+
+
+
+.board{
+width: 800px;
+}
+
+.red{
+  float:left;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+.black{
+  float:left;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+}
+
+.container{
+  width:;
+  height:;
+  position: relative;
+  top:
+  left:auto;background-color: none;
+}
+.left-circle, .right-circle, .heart{
+  background-color: #ff0066;
+  position: absolute;
+}
+
+/* CANDYYY */
+
+.candy1 {
+  width: 100px;
+      height: 100px;
+      border-radius: 80%;
+      background-color: aqua;
+      left: 218px;
+      top: -1183px;
+      position: relative;
+  }
+.candy2 {
+  width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    background-color: aqua;
+    left: 249px;
+    top: -1217px;
+    position: relative;
+}
+.candy3 {
+  width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    background-color: aqua;
+    left: 189px;
+    top: -1328px;
+    position: relative;
+}
+.candy4 {
+  width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    background-color: aqua;
+    left: 275px;
+    top: -1477px;
+    position: relative;
+}
+.candy5 {
+  width: 100px;
+      height: 100px;
+      border-radius: 80%;
+      background-color: aqua;
+      left: 305px;
+      top: -1527px;
+      position: relative;
+  }
+
+
+
+/* Susuwatari ------------------ */
+
+.square1 {
+  width: 134px;
+height: 534px;
+background: green;
+border-style: solid;
+border-width: thick;
+border-color: white;
+left: 1042px;
+top: 1290px;
+position: relative;
+}
+.square2 {
+  width: 134px;
+      height: 534px;
+      background: green;
+      border-style: solid;
+      border-width: thick;
+      border-color: white;
+      left: 1042px;
+      top: 1285px;
+      position: relative;
+  }
+.squaree3 {
+  width: 134px;
+    height: 534px;
+    background: green;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+    left: 200px;
+    top: 200px;
+    position: relative;
+}
+  .squaree4 {
+    width: 134px;
+    height: 534px;
+    background: green;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+    left: 200px;
+    top: 196px;
+    position: relative;
+}
+.lilsquare1 {
+  width: 346px;
+    height: 314px;
+    background: green;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+    left: 339px;
+    top: -668px;
+    position: relative;
+}
+.lilsquare2 {
+  width: 346px;
+    height: 314px;
+    background: green;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+    left: 339px;
+    top: -672px;
+    position: relative;
+}
+.lilsquare3 {
+  width: 346px;
+    height: 314px;
+    background: green;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+    left: 691px;
+    top: -1316px;
+    position: relative;
+}
+  .lilsquare4 {
+    width: 346px;
+    height: 314px;
+    background: green;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+    left: 691px;
+    top: -1320px;
+    position: relative;
+}
+.horizontalsquare1{
+  width: 697px;
+    height: 212px;
+    background: green;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+    left: 339px;
+    top: -1324px;
+    position: relative;
+}
+.horizontalsquare2{
+  width: 697px;
+    height: 215px;
+    background: green;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+    left: 340px;
+    top: -2406px;
+    position: relative;
+}
+
+
+.columnhorizontal{
+  width: 1071px;
+    height: 128px;
+    background: orange;
+    border-style: solid;
+    border-width: 15px;
+    border-color: white;
+    left: 125px;
+    top: 201px;
+    position: relative;
+}
+.columnhorizontal2{
+  width: 1072px;
+    height: 37px;
+    background: orange;
+    border-style: solid;
+    border-width: 15px;
+    border-color: white;
+    left: 125px;
+    top: 187px;
+    position: relative;
+}
+.columnvertical{
+  width: 346px;
+      height: 1000px;
+      background: orange;
+      border-style: solid;
+      border-width: 15px;
+      border-color: white;
+      left: 125px;
+      top: 174px;
+      position: relative;
+  }
+.columnvertical2{
+  width: 346px;
+  height: 1000px;
+  background: orange;
+  border-style: solid;
+  border-width: 15px;
+  border-color: white;
+  left: 486px;
+  top: -856px;
+  position: relative;
+}
+.columnvertical3{
+  width: 346px;
+    height: 1000px;
+    background: orange;
+    border-style: solid;
+    border-width: 15px;
+    border-color: white;
+    left: 850px;
+    top: -1886px;
+    position: relative;
+}
+.columnhorizontal3{
+  width: 1071px;
+    height: 130px;
+    background: orange;
+    border-style: solid;
+    border-width: 15px;
+    border-color: white;
+    left: 125px;
+    top: -2000px;
+    position: relative;
+}
+
+
+.bloghorizontal{
+  width: 1582px;
+      height: 260px;
+      background: orange;
+      border-style: solid;
+      border-width: 25px;
+      border-color: white;
+      left: 125px;
+      top: 174px;
+      position: relative;
+  }
+  .blogmedium{
+    width: 1100px;
+    height: 700px;
+    background: orange;
+    border-style: solid;
+    border-width: 25px;
+    border-color: white;
+    left: 125px;
+    top: 407px;
+    position: relative;
+}
+    .blogmedium2{
+      width: 1100px;
+    height: 90px;
+    background: orange;
+    border-style: solid;
+    border-width: 25px;
+    border-color: white;
+    left: 125px;
+    top: 384px;
+    position: relative;
+}
+.blogsmall{
+  width: 300px;
+    height: 369px;
+    background: orange;
+    border-style: solid;
+    border-width: 25px;
+    border-color: white;
+    left: 1250px;
+    top: -483px;
+    position: relative;
+}
+.blogsmall2{
+  width: 300px;
+    height: 369px;
+    background: orange;
+    border-style: solid;
+    border-width: 25px;
+    border-color: white;
+    left: 1252px;
+    top: 212px;
+    position: relative;
+}
+.blogmediumm1{
+  width: 1100px;
+      height: 700px;
+      background: orange;
+      border-style: solid;
+      border-width: 25px;
+      border-color: white;
+      left: 125px;
+      top: -207px;
+      position: relative;
+  }
+.blogmediumm2{
+  width: 1100px;
+    height: 90px;
+    background: orange;
+    border-style: solid;
+    border-width: 25px;
+    border-color: white;
+    left: 125px;
+    top: -227px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+/* hearts --------------- */
+
+.left-right {
+  width: 300px;
+height: 300px;
+top: 461px;
+left: 787px;
+
+}
+
+
+.right-square
+{
+  position: relative;
+  width: 300px;
+      height: 300px;
+      border-radius: 100%;
+      top: 461px;
+      left: 539px;
+      box-sizing: border-border-box;
+
+}
+
+.heart{
+  width: 250px;
+    height: 250px;
+    top: 614px;
+    left: 693px;
+    transform: rotate(45deg);
+}
+
+
+
+/* .relative
+{
+  background-color: red;
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+.relative2
+{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+
+
+.absolute{
+  background-color: aquamarine;
+  position: absolute;
+  top: 400px;
+  left: 400px;
+}
+.absolute2{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
+
+.fixed {
+  background-color: firebrick;
+  position: fixed;
+  top: 400px;
+  left: 400px;
+} */
