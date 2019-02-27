@@ -2,7 +2,7 @@ a{
   text-align: center;
   letter-spacing: 1px;
   margin: 100px 0 0 0;
-  color: deepskyblue;
+  color: plum;
   text-decoration: none;
   cursor: cell;
   transition: color 2s ease;
@@ -12,9 +12,19 @@ a:hover{
   color: orange;
 }
 
+.snow{
+  background: url("https://avatars.mds.yandex.net/get-pdb/1535406/6b1b6648-6d94-44b0-8e73-428a4e57aa3e/orig") no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ width: 100vw;
+ height: 100vh;
+}
+
 
   body {
-    background: lightblue;
+    background: linear-gradient(to bottom, white, deepskyblue 100%);
     font-family: 'Capriola', sans-serif;    font-size: 25px;
     }
 
@@ -44,7 +54,6 @@ h2{
 }
 h3{
   text-align: center;
-  font-family:  'Zilla Slab', serif;
   font-size: 25px;
 
 }
