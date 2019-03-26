@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+/* Mobile Size/Style */
+body {
+  margin: 0;
+  font-size: 16px;
+  background: linear-gradient(to bottom,#00FF00 0%,	#00FFFF 100%);
+}
+main {
+  width: 90vw;
+  margin: 25px auto;
+}
+
+
+@media only screen and (min-width:400px) and (max-width: 400px) {
+  body {
+    background: linear-gradient(to bottom,#00FF00 0%,	#00FFFF 100%);
+    margin: auto;
+  }
+  main {
+    width: 80vw;
+  }
+  h1 {
+    font-size: 6em;
+  }
+}
+
+/* Desktop Size/Style*/
+@media only screen and (min-width: 1200px) {
+  body {
+    background: linear-gradient(to bottom, #FFD700 0%, 	#DC143C 100%);
+  }
+}
+
+div{
+  font-size: 24px;
+  width: 1000px;
+  margin: 500px auto;
+}
+h1{
+  font-size: 60px;
+}
+h2{
+  font-size: 25px;
+}
