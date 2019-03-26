@@ -1,28 +1,27 @@
-* {
-  box-sizing: border-box;
-}
+
 /* Mobile Size/Style */
 body {
   margin: 0;
-  font-size: 16px;
+  font-size: 50px;
   background: linear-gradient(to bottom,#00FF00 0%,	#00FFFF 100%);
 }
 main {
-  width: 90vw;
-  margin: 25px auto;
+  width: 200vw;
+  margin: 300px auto;
+  width: auto;
 }
 
 
 @media only screen and (min-width:400px) and (max-width: 400px) {
   body {
     background: linear-gradient(to bottom,#00FF00 0%,	#00FFFF 100%);
-    margin: auto;
+    text-align: center;
   }
   main {
-    width: 80vw;
+    width: 200vw;
   }
   h1 {
-    font-size: 6em;
+    font-size: 200px;
   }
 }
 
@@ -35,12 +34,16 @@ main {
 
 div{
   font-size: 24px;
-  width: 1000px;
-  margin: 500px auto;
+  margin: 100px auto;
 }
 h1{
   font-size: 60px;
+  margin: 100px auto;
+
 }
 h2{
-  font-size: 25px;
+  font-size: 40px;
+}
+h3{
+  font-size: 40px;
 }
