@@ -6,6 +6,7 @@ a{
   text-decoration: none;
   cursor: cell;
   transition: color 2s ease;
+  font-size: 75px;
 }
 
 a:hover{
@@ -14,31 +15,26 @@ a:hover{
 
 
 
-  body {
-    /* background: linear-gradient(to bottom, white, deepskyblue 100%); */
-    font-family: 'Laila', serif;    font-size: 25px;
-    }
+  /* body {
+    background: linear-gradient(to bottom, white, deepskyblue 100%); */
+    /* font-family: 'Laila', serif;    font-size: 25px;
+    } */
 
 
 div{
   font-size: 50px;
   width: 1000px;
   margin: 200px auto;
+  text-align: center;
 }
 
-body{
+/* body{
   font-size: 75px;
   background-color: white;
   color: black;
-}
-p{
-  font-size: 35px;
-}
+} */
 
-.layoutb2{
-  text-align: center;
-  font-family:  'Muli', sans-serif;
-}
+
 
 .layouts1{
   position: relative;
@@ -51,6 +47,86 @@ p{
   position: fixed;
   text-align: left;
   transform: rotate(-90deg);
+}
+
+
+.layoutb2{
+  margin: 1400px;
+  text-align: center;
+  font-size: 55px;
+  margin-top: auto;
+  font-family:  'Muli', sans-serif;
+}
+.layouth2{
+  text-align: center;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 100px;
+}
+
+.layouth22{
+  text-align: center;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 100px;
+  margin-bottom: -100px;
+}
+.layouth23{
+  text-align: center;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 150px;
+}
+.layoutb3{
+  text-align: left;
+  font-size: px;
+  margin-top: auto;
+  font-family:  'Saira Extra Condensed', sans-serif;
+}
+
+
+
+.layoutb4{
+ font-size: 65px;
+  margin-top: auto;
+  font-family:  'Carrois Gothic SC', sans-serif;
+}
+.layouth3{
+  text-align:
+  text-align: center;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 120px;
+}
+.layouth31{
+  text-align: center;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 100px;
+}
+
+
+
+.layoutb5{
+ font-size: 75px;
+ text-align: center;
+ font-family:  'Bad Script', cursive;
+ width: 1800px;
+ height: 1800px;
+}
+.layouth41{
+  text-align: center;
+  font-family:  'Bangers', cursive;
+  font-size: 200px;
+}
+.layouth42{
+  text-align: center;
+  font-family:  'Bangers', cursive;
+  font-size: 90px;
+}
+.layouth43{
+  position: absolute;
+  text-align: left;
+  font-family:'Bangers', cursive;
+  transform: rotate(-90deg);
+  font-size: 150px;
+  width: auto;
+  margin-left: -100px;
 }
 
 h1{
@@ -67,9 +143,26 @@ h2{
 
 h3{
   text-align: center;
-  font-size: 60px;
-  font-family:  'Muli', sans-serif;
+  margin: 200px;
+  font-size: 115px;
+  font-family: 'Kanit', sans-serif;
 }
 h4{
-  font-size: 80px;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Karla', sans-serif;
+  margin-top: -100px;
+}
+h5{
+  text-align: center;
+  font-size: 65px;
+  font-family: 'Karla', sans-serif;
+  margin-top: -50px;
+  margin-left: 1500px;
+  width: 800px;
+}
+h6{
+  text-align: center;
+  font-size: 115px;
+  font-family: 'Saira Extra Condensed', sans-serif;
 }
