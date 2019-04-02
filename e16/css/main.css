@@ -1,0 +1,50 @@
+1body {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.full {
+  width: 100vw;
+  height: 100vh;
+}
+#list-name {
+  background-color: whitesmoke;
+}
+#game-1 {
+  transition: all 2s ease;
+}
+.indigo {
+  background-color: indigo;
+}
+.black {
+  background-color: black;
+}
+#game-2{
+  background-color: MediumOrchid;
+}
+#game-3{
+  background-color: orange;
+}
+#game-4{
+  background-color: SteelBlue;
+}
+#game-5{
+  background-color: LawnGreen;
+}
+
+h1 {
+  font-size: 5em;
+  margin: 0;
+  padding: 40vh 0 0 0;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+  transition: all 2s ease;
+
+}
+span {
+  transition: all 2s ease;
+  cursor: pointer;
+}
