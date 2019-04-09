@@ -2,25 +2,28 @@ $(document).ready(function() {
   // $('h1').css('color', 'white');
   $('#number1').click(function() {
     $('#number1').css('color', 'white');
-    $('#game-2').toggleClass('black');
   });
 
   $('#number2').click(function() {
     $('#number2').css('color', 'gold');
-    $('#number2').blink(); // default is 500ms blink interval.
-
+        setInterval(function() {
+          $('#number2').fadeIn(300).fadeOut(500);
+      }, 1000);
   });
 
   $('#number3').click(function() {
     $('#number3').css('color', 'DeepPink');
-    $('#number3').blink(); // default is 500ms blink interval.
+        setInterval(function() {
+          $('#number3').fadeIn(5).fadeOut(5);
+      }, 1000);
 
   });
 
   $('#number4').click(function() {
     $('#number4').css('color', 'white');
-    $('#number4').blink(); // default is 500ms blink interval.
-
+        setInterval(function() {
+          $('#number4').fadeIn(2).fadeOut(2);
+        }, 5);
   });
 
   $('#number5').click(function() {
@@ -29,22 +32,15 @@ $(document).ready(function() {
 
   });
 
-    setInterval(function() {
-        $('#number1').fadeIn(300).fadeOut(500);
-    }, 1000);
-
-    setInterval(function() {
-      $('#number2').fadeIn(300).fadeOut(500);
-  }, 1000);
+    // setInterval(function() {
+    //     $('#number1').fadeIn(300).fadeOut(500);
+    // }, 1000);
 
 
-    setInterval(function() {
-      $('#number3').fadeIn(300).fadeOut(500);
-  }, 1000);
 
-    setInterval(function() {
-      $('#number4').fadeIn(300).fadeOut(500);
-    }, 1000);
+
+
+
 
     setInterval(function() {
       $('#number5').fadeIn(300).fadeOut(500);
