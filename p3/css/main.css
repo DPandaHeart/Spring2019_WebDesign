@@ -33,10 +33,6 @@ img {
   width: 100%;
 }
 
-div.img {
-  width: 20px;
-  height: 20px;
-}
 
 .container{
   position: relative;
@@ -51,7 +47,36 @@ div.img {
   bottom: 578px;
 }
 
+.logo{
+  position: relative;
+  float: center;
+  width: 800px;
+  height: 800px;
+}
+.pic1{
+position: relative;
+float: left;
+left: 50px;
+width: 600px;
+height: 600px;
+}
+.pic2{
+  position: relative;
+  float: left;
+  left: 50px;
+  width: 600px;
+  height: 600px;
+}
+.pic3{
+  position: relative;
+  float: left;
+  left: 50px;
+  width: 600px;
+  height: 600px;
+}
+
 body{
+  position: relative;
 background-color: black;
 color: SandyBrown ;
 font-family: 'Crete Round', serif;
@@ -66,7 +91,7 @@ div{
 
 
 h1{
-  position: relative;
+position: relative;
 color: SandyBrown;
 font-size: 60px;
 text-align: center;
