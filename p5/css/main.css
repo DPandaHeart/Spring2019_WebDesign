@@ -1,0 +1,36 @@
+img{
+  /* width: 500px;
+  height: 500px; */
+align-items: center;
+}
+
+.center
+{
+display: inline;
+ margin-left: 475px;
+ margin-right: 500px;
+}
+
+.buttoncenter
+{
+  margin-left: 850px;
+  margin-right: 500px;
+  margin-bottom: 800px;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
+}
+
+body{
+  background-color: lightpink;
+}
+
+/* div {
+position: absolute;
+background-color: #abc;
+left: 0px;
+top: 30px;
+width: 60px;
+height: 60px;
+margin: 5px;
+} */
